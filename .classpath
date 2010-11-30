@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/httpcomponents-client-4.0.3/lib/httpclient-4.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/httpcomponents-client-4.0.3/lib/httpmime-4.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/httpcomponents-client-4.0.1/lib/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Serete/My Documents/Downloads/dot_product.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

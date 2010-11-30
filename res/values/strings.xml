@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reviewtitle">Camera</string>
+    <string name="clickButton">Snap</string>
+    <string name="hello">Hello World</string>
+    <string name="app_name">OurVillage</string>
+<string name="exitButtonTitle">Exit</string>
+<string name="ok">OK</string>
+<string name="url_server">http://zeum.blockchalk.com/api/v0.6/</string>
+
+<string-array name="neighborhoods"><item>Neighborhood 1</item>
+<item>Neighborhood 2</item>
+<item>neighborhood 3</item>
+</string-array>
+<string-array name="catergories"><item>cat 1</item>
+<item>cat 2</item>
+<item>cat 3</item>
+</string-array>
+<string-array name="states"><item>Presido</item>
+<item>North</item>
+<item>Northeast</item>
+<item>Northwest</item>
+<item>Central North</item>
+<item>Golden Gate Park</item>
+<item>Central West</item>
+<item>Central</item>
+<item>Central East</item>
+<item>Southwest</item>
+<item>Twins Peaks West</item>
+<item>Southeast </item>
+</string-array>
+<string name="screen_saver_msg">Share your corner of the neighborhood. After you take a picture, just tell us about what you see and send. Your post will be come part of the USSF. </string>
+</resources>

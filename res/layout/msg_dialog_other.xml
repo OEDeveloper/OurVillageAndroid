@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:padding="10dip">
+
+<EditText android:layout_height="wrap_content" android:id="@+id/EditTextMsg" android:hint="Enter Info/Message/Rant/Rave" android:layout_width="fill_parent" android:minLines="4"></EditText>
+<TextView android:layout_below="@id/EditTextMsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lat : " android:id="@+id/latTitle"></TextView>
+<TextView android:layout_height="wrap_content" android:id="@+id/lat" android:layout_width="wrap_content" android:layout_toRightOf="@id/latTitle" android:layout_below="@id/EditTextMsg" android:paddingRight="10dip" android:minWidth="75px"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/EditTextMsg" android:layout_toRightOf="@id/lat" android:id="@+id/lonTitle" android:text="Long: "></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/lon" android:layout_below="@id/EditTextMsg" android:layout_toRightOf="@id/lonTitle" android:minWidth="75px" android:paddingRight="5px"></TextView>
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/timeStampTitle" android:text="Time : " android:layout_below="@id/EditTextMsg" android:layout_toRightOf="@id/lon" android:paddingLeft="5dip"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/timeStampTitle" android:id="@+id/timeStamp" android:minWidth="75px" android:layout_below="@id/EditTextMsg"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/timeStamp" android:id="@+id/sourceTitle" android:text="Source : " android:layout_below="@id/EditTextMsg"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/sourceTitle" android:id="@+id/source" android:minWidth="50px" android:layout_below="@id/EditTextMsg"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/statesTitle" android:text="States :"  android:layout_below="@+id/timeStampTitle"></TextView>
+<Spinner android:layout_below="@id/statesTitle" android:layout_height="wrap_content" android:id="@+id/stateSpinner" android:layout_width="200px"></Spinner>
+
+<Button android:id="@+id/Button01" android:layout_height="wrap_content" android:text="OK" android:layout_width="wrap_content" android:layout_toRightOf="@id/stateSpinner" android:layout_below="@+id/timeStampTitle" android:width="100px" android:layout_alignParentBottom="true" android:layout_alignParentRight="true" android:height="5px"></Button>
+</RelativeLayout>

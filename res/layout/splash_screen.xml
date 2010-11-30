@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              android:orientation="vertical" android:background="@drawable/ussf_splash_screen">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/heading" android:text="Welcome To Our Village." android:padding="10dip" android:layout_gravity="center_horizontal" android:textColor="#856300" android:textSize="22dip"></TextView>
+    
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/msg_text" android:text="@string/screen_saver_msg" android:padding="10dip" android:textColor="#856300" android:textSize="20dip"></TextView>
+</LinearLayout>

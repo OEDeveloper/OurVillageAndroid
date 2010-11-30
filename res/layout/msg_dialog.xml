@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:minLines="4" android:gravity="top" android:id="@+id/EditTextMsg"></EditText>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lat: " android:visibility="visible" android:paddingLeft="5px"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/lat"></TextView>
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Long: " android:visibility="visible" android:paddingLeft="5px"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/lon"></TextView>
+</LinearLayout><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="5dip" android:id="@+id/source" android:text="Source :"></TextView><Button android:id="@+id/Button01" android:layout_height="wrap_content" android:text="@string/ok" android:padding="10sp" android:layout_width="fill_parent"></Button>
+
+
+</LinearLayout>
