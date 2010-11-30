@@ -53,7 +53,7 @@ public class OurVillage extends Activity implements LocationListener {
         String chalkID = "";
         ChalkPoster cp = null;
         FileOutputStream out = null;
-        String url = "http://eitc.comze.com/chalk/upload_file.php";
+        String url = "http://";
 
         @Override
         public void ready(String chalk) {
@@ -199,7 +199,7 @@ public class OurVillage extends Activity implements LocationListener {
     }
 
     // Use the same chalk user
-    private static final String chalkUser = "0add24dec4864bc68bc2211b6cea0810";
+    private static final String chalkUser = "";
 
     private static final String TAG = "OurVillage";
     Button buttonClick;
