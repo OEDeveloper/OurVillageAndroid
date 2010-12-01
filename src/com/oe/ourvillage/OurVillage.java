@@ -53,7 +53,7 @@ public class OurVillage extends Activity implements LocationListener {
         String chalkID = "";
         ChalkPoster cp = null;
         FileOutputStream out = null;
-        String url = "http://";
+        String url = " URL here";
 
         @Override
         public void ready(String chalk) {
@@ -199,7 +199,7 @@ public class OurVillage extends Activity implements LocationListener {
     }
 
     // Use the same chalk user
-    private static final String chalkUser = "";
+    private static final String chalkUser = "ChalkUserId here";
 
     private static final String TAG = "OurVillage";
     Button buttonClick;
